@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
     color: rgb(166, 166, 166);
+    font-size: 10px;
 }
 
 a:hover {
@@ -45,10 +47,45 @@ nav ul, li {
 
 .main-header {
     width: 100%;
-    height: 200px;
+    height: 430px;
     margin: 1em auto 1em auto;
-    background-color: blueviolet;
+    border-radius: 0.3em;
+    position: relative;
+    overflow: hidden;
 }
+
+.main-header img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-header-text {
+    position: absolute;
+    bottom: 3em;
+    left: 3em;
+    width: 40%;
+}
+
+
+.main-header h1 {
+    color: white;
+    font-size: 14px;
+}
+
+.main-header p {
+    color: white;
+    font-size: 9px;
+    text-align: justify;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 
 .superiore {
     width: 100%;

@@ -153,3 +153,8 @@ nav ul, li {
     width: 15px;
     height: 15px;
 }
+
+.main-footer img:hover {
+    width: 30px;
+    height: 30px;
+}
